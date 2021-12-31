@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'Avocado Creamy';
+    src: url('../font/AvocadoCreamy.otf') format("opentype");
+}
+
+
+/* arima */
+.arima-3 {
+    font-family: 'Arima Madurai';
+    font-weight: 300;
+}
+
+.arima-4 {
+    font-family: 'Arima Madurai';
+    font-weight: 400;
+}
+
+.arima-5 {
+    font-family: 'Arima Madurai';
+    font-weight: 500;
+}
+
+.arima-6 {
+    font-family: 'Arima Madurai';
+    font-weight: 600;
+}
+
+.arima-7 {
+    font-family: 'Arima Madurai';
+    font-weight: 700;
+}
+
+.arima-8 {
+    font-family: 'Arima Madurai';
+    font-weight: 800;
+}
+
+.arima-9 {
+    font-family: 'Arima Madurai';
+    font-weight: 900;
+}
+
+/* Avocado */
+.Avocado-4 {
+    font-family: 'Avocado Creamy';
+    font-weight: 400;
+
+}
+
+.Avocado-5 {
+    font-family: 'Avocado Creamy';
+    font-weight: 500;
+}
+
+.Avocado-6 {
+    font-family: 'Avocado Creamy';
+    font-weight: 600;
+}
+
+.Avocado-7 {
+    font-family: 'Avocado Creamy';
+    font-weight: 700;
+}
+
+.Avocado-8 {
+    font-family: 'Avocado Creamy';
+    font-weight: 800;
+}
+
+.Avocado-9 {
+    font-family: 'Avocado Creamy';
+    font-weight: 900;
+}
+
+/* saira */
+.saira-4 {
+    font-family: 'Saira';
+    font-weight: 400;
+}
+
+.saira-5 {
+    font-family: 'Saira';
+    font-weight: 500;
+}
+
+.saira-6 {
+    font-family: 'Saira';
+    font-weight: 600;
+}
+
+.saira-7 {
+    font-family: 'Saira';
+    font-weight: 700;
+}
+
+.saira-8 {
+    font-family: 'Saira';
+    font-weight: 800;
+}
+
+.saira-9 {
+    font-family: 'Saira';
+    font-weight: 900;
+}
+/* saira Condensed*/
+.sairac-4 {
+    font-family: 'Saira Condensed';
+    font-weight: 400;
+}
+
+.sairac-5 {
+    font-family: 'Saira Condensed';
+    font-weight: 500;
+}
+
+.sairac-6 {
+    font-family: 'Saira Condensed';
+    font-weight: 600;
+}
+
+.sairac-7 {
+    font-family: 'Saira Condensed';
+    font-weight: 700;
+}
+
+.sairac-8 {
+    font-family: 'Saira Condensed';
+    font-weight: 800;
+}
+
+.sairac-9 {
+    font-family: 'Saira Condensed';
+    font-weight: 900;
+}
+/* Poppins */
+.poppins-4 {
+    font-family: 'Poppins';
+    font-weight: 400;
+
+}
+
+.poppins-5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+
+}
+
+.poppins-6 {
+    font-family: 'Poppins';
+    font-weight: 600;
+
+}
+
+.poppins-7 {
+    font-family: 'Poppins';
+    font-weight: 700;
+
+}
+
+.poppins-8 {
+    font-family: 'Poppins';
+    font-weight: 800;
+
+}
+
+.poppins-9 {
+    font-family: 'Poppins';
+    font-weight: 900;
+
+}
+.ribeye{
+    font-family: 'Ribeye', cursive;
+}
+
+.bold {
+    font-weight: bold;
+}

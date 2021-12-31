@@ -1,0 +1,2068 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pharma One - Landing Page</title>
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        .error {
+            color: rgba(79, 5, 5, 0.926);
+        }
+
+        .modal-body .form-group .form-control:focus {
+            box-shadow: unset;
+            border-color: #2a6f78;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="hearer-section pt-3 py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h4 class="text-light" style="padding-top: 5px;"><img
+                                    class="animate__animated animate__heartBeat" src="assets/img/logo.png" width="40px">
+                                <span class="pl-2">Pharma<span style="font-weight: 200;">One</span></span>
+                            </h4>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i class="fa fa-map-marker animate__animated animate__bounce"></i>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <p class="card-title">Deliver to</p>
+                                        <div class="card-body">
+                                            <h6><span class="pinCode">100008</span> <a href="#" data-toggle="modal"
+                                                    data-target="#DeliverModal"><i class="fa fa-times"></i></a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="logo-section-text">
+                        <a href="#">Community</a>
+                        <a href="#">Don’t have prescription?</a>
+                        <div class="btn-group">
+                            <button type="button"
+                                class="btn btn-light animate__animated animate__fadeInLeft animate__delay-0.5s"
+                                data-toggle="modal" data-target="#LoginModal">Sign
+                                In</button>
+                            <button type="button"
+                                class="btn btn-secondary animate__animated animate__fadeInRight animate__delay-0.5s"
+                                data-toggle="modal" data-target="#LoginModal"><span class="">Create An
+                                    Account</span></button>
+                        </div>
+                        <button type="button" data-toggle="modal" data-target="#cartModal"
+                            class="btn btn-secondary cart"><span class="badge badge-light"><i
+                                    class="fa fa-shopping-cart animate__animated animate__slideInLeft"
+                                    aria-hidden="true"></i></span>Cart<span
+                                class="badge badge-light cart-count animate__animated animate__slideInDown">05</span></button>
+                        <a href="" data-toggle="modal" data-target="#profileModal">
+                            <!-- id="userProfile" data-toggle="dropdown" -->
+                            <span class="user-profile">
+                                <span class="user-icon"><i style="margin-top: 6px;"
+                                        class="fa fa-user animate__animated animate__bounceInDown"></i></span>
+                                <!-- <i class="fa fa-caret-down"></i> -->
+                            </span>
+                        </a>
+                        <!-- <div class="dropdown-menu" aria-labelledby="userProfile">
+                            <a class="dropdown-item" href="#"><i class="fa fa-user-o" aria-hidden="true"></i> My
+                                Profile</a>
+                            <a class="dropdown-item" href="#"><i class="fa fa-eye-slash" aria-hidden="true"></i> Change
+                                Password</a>
+                            <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                                LogOut</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div
+        style="background: url('assets/img/background-search.png') no-repeat; background-position: center;background-size: cover;">
+        <!-- Menu Bar -->
+        <section class="menu-bar">
+            <div class="container">
+                <ul class="list-inline">
+                    <!-- active -->
+                    <li class="list-inline-item"><a class="text-xs-center" href="#">Medicines</a></li>
+                    <li class="list-inline-item" style="margin-left: -12px !important;"><a class="text-xs-center"
+                            href="#">Vitamin Supplements</a></li>
+                    <li class="list-inline-item"><a class="text-xs-center" href="#">fitness products</a></li>
+                    <li class="list-inline-item"><a class="text-xs-center" href="#">Health and baby care</a></li>
+                    <li class="list-inline-item"><a class="text-xs-center" href="#">Featured</a></li>
+                    <li class="list-inline-item"><a class="text-xs-center" href="#">Health Guides</a></li>
+                    <li class="list-inline-item"><a class="text-xs-center" href="#">Upload Prescriptions</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Advisement -->
+        <section class="advisement">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-1 col-md-10">
+                        <div class="advisement-text">
+                            <h2 class="pl-4">Get All Your Meds At <span class="animate__animated animate__fadeInDown"
+                                    style="font-weight: 800;">ONE</span> Place</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Search Section -->
+        <section class="search-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-3 col-md-6">
+                        <div class="input-group mb-3">
+                            <!-- <span class="search-text">Search all Medicines</span> -->
+                            <input type="text" class="form-control" id="search-box"
+                                placeholder="Search all Medicines, drugs, vitamins & health products"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-warning" type="button"><i class="fa fa-search"
+                                        aria-hidden="true"></i> Search</button>
+                            </div>
+                        </div>
+                        <h6><span style="color: #2A6F78;">Suggetions: </span><a href="#"><u>Vitamin Supplements</u></a>
+                            <a href="#"><u>Fitness products</u></a> <a href="#"><u>N95 Masks.</u></a>
+                        </h6>
+                    </div>
+                </div>
+                <h3 class="text-center my-4"><span style="font-weight: 200;">Got A</span> Prescription?</h3>
+                <div class="anchor-tag text-center my-4">
+                    <a href="#" class="active">Upload Prescription</a> <a href="#" class="ml-3">Don’t have
+                        prescription?</a>
+                </div>
+            </div>
+        </section>
+        <!-- Offer Section -->
+        <section class="offer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-1 col-md-10">
+                        <h4>Offers just for <span style="font-weight: 800;">You</span></h4>
+                        <div class="row my-4">
+                            <div class="col-md-3">
+                                <div class="offer-content" data-aos="zoom-in" data-aos-duration="1000">
+                                    <p>Flat INR 250 Off On Dummy Gramophone</p>
+                                    <h5 class="">25% OFF</h5>
+                                    <button type="button" class="btn btn-outline-primary">Claim Now</button><a
+                                        href=""><i class="ml-2 fa fa-info-circle"></i></a>
+                                    <h6>*Terms and conditions apply</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="offer-content" data-aos="zoom-in" data-aos-duration="1500">
+                                    <p>Teens health pack Offer | Upto 25% Student Discount</p>
+                                    <h5 class="">50/- Cashback</h5>
+                                    <button type="button" class="btn btn-outline-primary">Claim Now</button><a
+                                        href=""><i class="ml-2 fa fa-info-circle"></i></a>
+                                    <h6>*Terms and conditions apply</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="offer-content" data-aos="zoom-in" data-aos-duration="2000">
+                                    <p>Flat INR 250 Off On Dummy Gramophone</p>
+                                    <h5 class="">25% OFF</h5>
+                                    <button type="button" class="btn btn-outline-primary">Claim Now</button><a
+                                        href=""><i class="ml-2 fa fa-info-circle"></i></a>
+                                    <h6>*Terms and conditions apply</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="offer-content" data-aos="zoom-in" data-aos-duration="2500">
+                                    <p>Teens health pack Offer | Upto 25% Student Discount</p>
+                                    <h5 class="">120/- Cashback</h5>
+                                    <button type="button" class="btn btn-outline-primary">Claim Now</button><a
+                                        href=""><i class="ml-2 fa fa-info-circle"></i></a>
+                                    <h6>*Terms and conditions apply</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="my-5"><span style="font-weight: 800;">Deals</span> of the day</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Deals Section -->
+    <section class="deals-section pb-4">
+        <div class="container">
+            <div class="deals-heading py-2">
+                <h5 class="pl-4"><img class="clock" src="assets/img/clock.png"> <span class="pl-2"
+                        style="font-weight: 900;font-size: 24px;margin-left: 10px;">Save upto</span> 60% today with
+                    Fitness Friday!</h5>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <div class="row my-4">
+                        <div class="col-md-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="1000">
+                                <h5 class=""><span style="font-weight: 800;">60%</span> off on</h5>
+                                <h4>Cardio</h4>
+                                <h4>supplements</h4>
+                                <div class="text-right" style="transition: transform 400ms;">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="1500">
+                                <h5 class=""><span style="font-weight: 800;">70%</span> off on</h5>
+                                <h4>Protien</h4>
+                                <h4>Boosters</h4>
+                                <div class="text-right" style="transition: transform 400ms;">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="2000">
+                                <h5 class=""><span style="font-weight: 800;">40%</span> off on</h5>
+                                <h4>Vitamin</h4>
+                                <h4>supplements</h4>
+                                <div class="text-right" style="transition: transform 400ms;">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="2500">
+                                <h5 class=""><span style="font-weight: 800;">30%</span> off on</h5>
+                                <h4>Eye care</h4>
+                                <h4>Medicines</h4>
+                                <div class="text-right" style="transition: transform 400ms;">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="offset-md-1 col-md-11">
+                    <div id="deals-carousel" class="owl-carousel">
+                        <div class="item col-12 mt-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="1000">
+                                <h5 class=""><span style="font-weight: 800;">60%</span> off on</h5>
+                                <h4>Cardio</h4>
+                                <h4>supplements</h4>
+                                <div class="text-right">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="1500">
+                                <h5 class=""><span style="font-weight: 800;">70%</span> off on</h5>
+                                <h4>Protien</h4>
+                                <h4>Boosters</h4>
+                                <div class="text-right">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="2000">
+                                <h5 class=""><span style="font-weight: 800;">40%</span> off on</h5>
+                                <h4>Vitamin</h4>
+                                <h4>supplements</h4>
+                                <div class="text-right">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="2500">
+                                <h5 class=""><span style="font-weight: 800;">30%</span> off on</h5>
+                                <h4>Eye care</h4>
+                                <h4>Medicines</h4>
+                                <div class="text-right">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="1500">
+                                <h5 class=""><span style="font-weight: 800;">70%</span> off on</h5>
+                                <h4>Protien</h4>
+                                <h4>Boosters</h4>
+                                <div class="text-right">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="deal-content" data-aos="fade-down" data-aos-duration="1000">
+                                <h5 class=""><span style="font-weight: 800;">60%</span> off on</h5>
+                                <h4>Cardio</h4>
+                                <h4>supplements</h4>
+                                <div class="text-right">
+                                    <a href="#">View All <img src="assets/img/view-all.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- Explore Section -->
+    <section class="explore-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3>Explore Our <span style="font-weight: 900;">featured</span> Brands</h3>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="offset-md-1 col-md-2 explore-col"
+                    style="border-top-left-radius: 30px;border-bottom-left-radius: 30px;">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <a href="" data-toggle="modal" data-target="#productModal">
+                                <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                    <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                                </a>
+                                    
+                            <a href="" data-toggle="modal" data-target="#productModal">
+                                <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                    <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <a href="" data-toggle="modal" data-target="#productModal">
+                                <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="2500">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;">
+                                <i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                    <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <a href="" data-toggle="modal" data-target="#productModal">
+                                <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col"
+                    style="border-top-right-radius: 30px;border-bottom-right-radius: 30px;">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                    <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                                </a>
+                            <a href="" data-toggle="modal" data-target="#productModal">
+                                <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="text-center view-all d-flex justify-content-center align-items-center"
+                        data-aos="zoom-in" data-aos-duration="1000">
+                        <a href="#">
+                            <img src="assets/img/view-all.png">
+                            <h6>View All</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Effective Care -->
+    <section class="effective-care py-4"
+        style="background:linear-gradient( rgb(255 255 255 / 98%), rgb(255 255 255 / 45%) ), url(assets/img/heart.png) no-repeat;background-position: center center;background-size: 70%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3 class="mb-4">Get <span style="font-weight: 800;">Effective</span> Care</h3>
+                    <h5>Get meds by <span style="font-weight: 800;">Deficiencies</span></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section -->
+    <section class="category-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="category">
+                                <div class="row">
+                                    <div class="col-md-2 text-center">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="44"
+                                                viewBox="0 0 35 44" fill="none" data-aos="fade-down"
+                                                data-aos-duration="2000">
+                                                <g clip-path="url(#clip0_245_5)">
+                                                    <path
+                                                        d="M27.9 18.2504C27.4608 18.7082 26.9148 19.0437 26.3137 19.225C25.7125 19.4063 25.0761 19.4275 24.4647 19.2866L13.8765 30.13C14.0141 30.7561 13.9934 31.4078 13.8164 32.0234C13.6393 32.6391 13.3118 33.1983 12.8647 33.648C12.5177 34.0094 12.1038 34.2964 11.6473 34.4923C11.1909 34.6882 10.7009 34.7891 10.2059 34.7891C9.71096 34.7891 9.22097 34.6882 8.76448 34.4923C8.308 34.2964 7.89416 34.0094 7.54709 33.648C7.08082 33.2068 6.73942 32.6449 6.55885 32.0215C5.93923 31.8432 5.37563 31.5027 4.92356 31.0336C4.32719 30.4201 3.94975 29.619 3.85203 28.7592C3.75431 27.8993 3.94198 27.0308 4.38484 26.2935C4.82769 25.5562 5.49995 24.9929 6.29338 24.6944C7.08681 24.396 7.95524 24.3796 8.75885 24.648L14.7941 18.4673L15.2647 20.1059V22.3348L16.4412 19.5396V16.8047L19.1118 14.0697C18.959 13.5832 18.9022 13.0705 18.9447 12.5613C18.9872 12.0521 19.1281 11.5567 19.3592 11.1038C19.5903 10.6509 19.9071 10.2495 20.291 9.9231C20.6749 9.59668 21.1184 9.35167 21.5956 9.20234C22.0729 9.05301 22.5743 9.00233 23.0708 9.05324C23.5674 9.10416 24.049 9.25565 24.4879 9.49892C24.9267 9.74219 25.314 10.0724 25.6271 10.4703C25.9402 10.8682 26.1729 11.3259 26.3118 11.8167C26.929 11.9927 27.4893 12.3337 27.9353 12.8047C28.2859 13.1625 28.5634 13.5882 28.7517 14.057C28.94 14.5258 29.0352 15.0282 29.0319 15.5351C29.0287 16.042 28.9269 16.5431 28.7325 17.0093C28.5382 17.4755 28.2552 17.8974 27.9 18.2504V18.2504Z"
+                                                        fill="#2A6F78" />
+                                                    <path
+                                                        d="M16.1 2.16871C17.7941 1.12051 17.9588 2.38557 20.2176 1.85545C21.3941 1.59039 22.5706 0.228948 24.0412 0.301237C25.2176 0.301237 26.3235 1.75907 27.6882 2.22895C28.8647 2.62654 30.5235 2.13256 31.7235 2.95184C32.7353 3.62654 33.0176 5.36148 34.0764 6.44582"
+                                                        stroke="#2A6F78" stroke-width="0.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M16.3823 41.1845C14.9353 42.0882 14.7235 40.8472 12.7823 41.293C11.8176 41.5219 10.7706 42.8592 9.51176 42.799C8.47646 42.799 7.57058 41.3894 6.40587 40.9797C5.41764 40.6303 3.88823 41.2086 2.87646 40.5098C1.8647 39.8111 1.85293 38.2689 0.970581 37.3773"
+                                                        stroke="#2A6F78" stroke-width="0.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_245_5">
+                                                        <rect width="33.6471" height="44" fill="white"
+                                                            transform="translate(0.676514)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <h6>Bone density</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="44"
+                                                viewBox="0 0 62 44" fill="none" data-aos="fade-down"
+                                                data-aos-duration="2000">
+                                                <path
+                                                    d="M25.8567 19H24.5476V7.74231H30.8233V8.90504H25.8567V13.0246H30.523V14.1874H25.8567V19ZM36.0671 19.154C34.8197 19.154 33.8341 18.7741 33.1102 18.0144C32.3915 17.2546 32.0322 16.1997 32.0322 14.8496C32.0322 13.4892 32.3659 12.4086 33.0332 11.6078C33.7057 10.807 34.6066 10.4066 35.736 10.4066C36.7935 10.4066 37.6302 10.7557 38.2463 11.4538C38.8623 12.1468 39.1703 13.0631 39.1703 14.2028V15.0113H33.3566C33.3823 16.0021 33.6313 16.7541 34.1036 17.2675C34.581 17.7808 35.2509 18.0375 36.1133 18.0375C37.0219 18.0375 37.9203 17.8475 38.8084 17.4677V18.6073C38.3566 18.8024 37.928 18.941 37.5224 19.0231C37.122 19.1104 36.6369 19.154 36.0671 19.154ZM35.7206 11.4769C35.043 11.4769 34.5014 11.6976 34.0959 12.1391C33.6954 12.5806 33.4593 13.1915 33.3874 13.9718H37.7997C37.7997 13.1658 37.62 12.5498 37.2606 12.1237C36.9013 11.6925 36.388 11.4769 35.7206 11.4769Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M21.4589 30.4768C22.1926 29.7233 20.7998 27.0711 18.3481 24.5529C15.8964 22.0347 13.3142 20.6042 12.5806 21.3577C11.847 22.1112 13.2398 24.7634 15.6915 27.2816C18.1431 29.7998 20.7253 31.2304 21.4589 30.4768Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M21.4485 30.4782L14.9888 37.0882C13.8153 38.2832 12.2298 38.9537 10.5773 38.9537C8.92486 38.9537 7.3393 38.2832 6.16582 37.0882V37.0882C5.00238 35.8829 4.34961 34.2543 4.34961 32.5571C4.34961 30.8598 5.00238 29.2312 6.16582 28.0259L12.8558 21.1918"
+                                                    stroke="#2A6F78" stroke-width="0.5" stroke-miterlimit="10" />
+                                                <path
+                                                    d="M56.1951 28.611L49.9778 22.2251L49.5294 21.7769C49.4369 21.764 49.3431 21.764 49.2507 21.7769C48.1599 21.7769 46.0632 23.1089 44.0514 25.1629C41.6275 27.6525 40.1974 30.3414 40.9367 31.0883L47.3358 37.6236C48.4993 38.8303 50.082 39.5128 51.7355 39.521C53.389 39.5291 54.9779 38.8623 56.1527 37.6672C57.3275 36.472 57.992 34.8465 58 33.1481C58.0079 31.4498 57.3587 29.8177 56.1951 28.611V28.611ZM44.4029 25.4865C46.4874 23.3703 48.4144 22.2624 49.2507 22.2624L49.4688 22.474C49.4688 23.196 48.6083 25.138 46.3177 27.4534C44.2332 29.582 42.3062 30.7024 41.4699 30.7024C41.3995 30.729 41.3222 30.729 41.2518 30.7024C40.973 30.3912 41.6517 28.2625 44.3665 25.4865H44.4029Z"
+                                                    fill="#2A6F78" />
+                                            </svg>
+                                            <h6>Iron deficiency</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="63" height="44"
+                                                viewBox="0 0 63 44" fill="none" data-aos="fade-down"
+                                                data-aos-duration="2000">
+                                                <g clip-path="url(#clip0_77_5648)">
+                                                    <path
+                                                        d="M25.4238 24.1149C24.6687 23.1639 23.5852 22.5137 22.3752 22.2853V22.1488C22.8849 22.069 23.3733 21.8916 23.8125 21.6268C24.2517 21.362 24.633 21.0151 24.9343 20.6059C25.5802 19.6193 25.8841 18.4562 25.8014 17.2881C25.867 16.4441 25.6991 15.5984 25.3154 14.8394C24.9316 14.0804 24.346 13.436 23.6198 12.9736C21.7565 12.0276 19.6781 11.5579 17.5785 11.6083C17.5801 12.9096 17.4536 14.2081 17.2009 15.4859C18.1269 15.4484 19.0484 15.6311 19.886 16.0184C20.2021 16.2121 20.4587 16.4857 20.6285 16.8102C20.7984 17.1347 20.8752 17.4979 20.8509 17.8616C20.888 18.2382 20.8236 18.6178 20.6642 18.9627C20.5048 19.3075 20.2558 19.6057 19.9419 19.8277C19.0906 20.2926 18.1176 20.5016 17.145 20.4284H15.327C14.6947 21.5001 13.9342 22.4947 13.0615 23.3912C12.0376 24.4793 10.8199 25.3767 9.46753 26.04V33.9181H18.026C20.1849 34.0536 22.329 33.487 24.1232 32.307C24.867 31.7465 25.4621 31.02 25.8587 30.1885C26.2554 29.357 26.4419 28.4447 26.4027 27.5282C26.4617 26.3172 26.1183 25.1199 25.4238 24.1149V24.1149ZM20.4034 29.3851C19.5288 29.9392 18.4923 30.1982 17.4527 30.1224H14.2922V24.2787H17.2848C20.0817 24.2787 21.3543 25.2072 21.3543 27.0094C21.392 27.4439 21.3258 27.881 21.1607 28.2862C20.9957 28.6914 20.7364 29.0536 20.4034 29.3442V29.3851Z"
+                                                        fill="#2A6F78" />
+                                                    <path
+                                                        d="M39.2684 33.9999H36.7372V18.08C36.7372 16.7146 36.7372 15.4995 36.863 14.3253C36.6393 14.5437 36.4015 14.7622 36.1219 14.9943C35.8422 15.2264 34.6115 16.2231 32.402 17.9708L31.0035 16.2368L37.0588 11.6628H39.2544L39.2684 33.9999Z"
+                                                        fill="#2A6F78" />
+                                                    <path
+                                                        d="M63.0001 34.0001H47.9668V31.8155L53.9941 25.9035C55.2799 24.683 56.4894 23.3882 57.6161 22.0259C58.1547 21.3304 58.5967 20.5683 58.9306 19.7595C59.2304 19.0065 59.3822 18.2052 59.3781 17.3974C59.405 16.874 59.3193 16.351 59.1266 15.8618C58.9339 15.3727 58.6385 14.9284 58.2594 14.5575C57.8432 14.1931 57.3567 13.9137 56.8283 13.7355C56.3 13.5573 55.7405 13.484 55.1828 13.5198C54.2631 13.5149 53.3496 13.6674 52.4838 13.9704C51.4673 14.3781 50.5234 14.9403 49.6869 15.6361L48.2884 13.9158C50.1936 12.2753 52.6426 11.3635 55.1828 11.3489C57.0138 11.2426 58.818 11.8183 60.2312 12.96C60.8372 13.5092 61.3128 14.1812 61.6244 14.9289C61.9361 15.6766 62.0763 16.4819 62.0352 17.2882C62.0162 18.7701 61.5965 20.2208 60.8185 21.4935C59.5291 23.4241 57.9924 25.186 56.2456 26.7364L51.2392 31.5288V31.6517H63.0001V34.0001Z"
+                                                        fill="#2A6F78" />
+                                                    <path
+                                                        d="M12.2364 22.5447C9.73323 25.1389 6.23711 26.5042 3.13256 24.6201C2.91043 24.4855 2.69571 24.3397 2.48927 24.1831L2.79693 24.4426C2.79693 24.4426 0.503481 27.3098 2.06974 30.0405L1.39849 29.6718C-0.167773 26.9411 2.1956 23.9101 2.1956 23.9101C1.04884 22.8946 0.303205 21.5187 0.0885576 20.0218C-0.12609 18.5248 0.203845 17.0018 1.02091 15.718C2.97742 13.1797 5.62228 11.2264 8.65642 10.0791C13.6069 8.30414 14.5159 5 14.5159 5C14.5159 5 19.1867 15.2947 12.2364 22.5447Z"
+                                                        fill="#2A6F78" />
+                                                    <path
+                                                        d="M2.79688 23.9101C4.34469 22.7757 5.75254 21.4699 6.99221 20.0188C8.25031 18.611 9.37376 17.0937 10.3485 15.4859C11.3161 13.8816 12.1441 12.2009 12.8237 10.4614C13.5035 8.67704 14.0686 6.85304 14.5159 5C14.348 5.92844 14.2082 6.87053 13.9984 7.79896C13.7887 8.7274 13.5509 9.64218 13.2013 10.5297C12.5737 12.3399 11.7682 14.0866 10.796 15.7453C8.85914 19.0686 6.11136 21.8733 2.79688 23.9101V23.9101Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M8.9361 11.1577C9.06766 12.4332 9.4524 13.6714 10.0688 14.8032C9.74166 14.6556 9.46142 14.4245 9.25774 14.1342C9.07215 13.8398 8.92643 13.5231 8.82422 13.1921C8.66195 12.5174 8.70077 11.8115 8.9361 11.1577Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M9.78918 18.0117C10.3605 18.0604 10.9266 18.1563 11.4813 18.2984C12.0172 18.432 12.5652 18.5144 13.1175 18.5442C12.8583 18.7046 12.5672 18.8094 12.2635 18.8518C11.9597 18.8942 11.6502 18.8731 11.3554 18.79C11.0704 18.7184 10.7938 18.6177 10.5304 18.4896C10.2667 18.3564 10.0182 18.1962 9.78918 18.0117V18.0117Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M4.53105 14.4482C4.53639 14.9411 4.56907 15.4334 4.62894 15.9228C4.68267 16.4119 4.79533 16.8931 4.96457 17.3564C5.09282 17.8222 5.30599 18.2616 5.59387 18.6535C5.90549 19.0513 6.26728 19.4091 6.67067 19.7185C6.14167 19.5639 5.66084 19.2823 5.27222 18.8993C4.88876 18.5082 4.59341 18.0431 4.40519 17.5339C4.10551 16.519 4.14966 15.4367 4.53105 14.4482V14.4482Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M9.49546 23.9101C8.66046 24.2017 7.78114 24.3541 6.89435 24.3607C6.42442 24.3666 5.95531 24.3208 5.4959 24.2241C5.26597 24.1869 5.04651 24.1034 4.85148 23.9788C4.65646 23.8542 4.49015 23.6913 4.36316 23.5005C4.72176 23.724 5.14048 23.8381 5.56582 23.8282C5.98509 23.8487 6.40515 23.8487 6.82443 23.8282C7.7474 23.8828 8.60045 23.8145 9.49546 23.9101Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_77_5648">
+                                                        <rect width="63" height="44" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <h6>Vitamin B12</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="44"
+                                                viewBox="0 0 25 44" fill="none" data-aos="fade-down"
+                                                data-aos-duration="2000">
+                                                <path
+                                                    d="M19.6465 20.7427C7.75508 31.8637 -7.0551 22.4615 5.64706 12.1484C17.4844 1.11326 32.5648 9.62163 19.6465 20.7427Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M5.62915 19.574C7.27108 19.9352 8.98051 19.9095 10.6097 19.4993C12.2389 19.089 13.7389 18.3064 14.9801 17.2192C19.4664 13.4548 19.5925 8.33263 17.7728 8.12637C16.8539 8.02324 15.5567 11.3406 13.0162 13.9877C8.22363 18.9896 -0.694908 16.8754 5.62915 19.574Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M12.7278 36.2984C7.32263 32.4825 10.2594 26.1914 15.4664 30.3855C20.8536 34.1842 18.2591 40.5268 12.7278 36.2984Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M12.1333 30.9011C12.0839 31.5299 12.2017 32.1605 12.4757 32.7344C12.7497 33.3083 13.1711 33.8069 13.7008 34.1841C15.5025 35.5764 17.7186 35.2842 17.7006 34.5966C17.7006 34.2529 16.2052 33.995 14.944 33.2387C12.5477 31.8121 12.89 28.3916 12.1333 30.9011Z"
+                                                    fill="white" />
+                                            </svg>
+                                            <h6>Hemoglobiin</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="44"
+                                                viewBox="0 0 51 44" fill="none" data-aos="fade-down"
+                                                data-aos-duration="2000">
+                                                <path
+                                                    d="M2.72074 33.1332C4.22336 33.1332 5.44148 31.9258 5.44148 30.4364C5.44148 28.947 4.22336 27.7396 2.72074 27.7396C1.21812 27.7396 0 28.947 0 30.4364C0 31.9258 1.21812 33.1332 2.72074 33.1332Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M49.473 19.8143C50.3163 19.8143 50.9999 19.1366 50.9999 18.3007C50.9999 17.4649 50.3163 16.7872 49.473 16.7872C48.6297 16.7872 47.946 17.4649 47.946 18.3007C47.946 19.1366 48.6297 19.8143 49.473 19.8143Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M5.4415 9.50859C6.28481 9.50859 6.96844 8.83097 6.96844 7.99508C6.96844 7.15919 6.28481 6.48157 5.4415 6.48157C4.59819 6.48157 3.91455 7.15919 3.91455 7.99508C3.91455 8.83097 4.59819 9.50859 5.4415 9.50859Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M11.4382 30.7115C11.7142 30.7115 11.9379 30.4897 11.9379 30.2162C11.9379 29.9426 11.7142 29.7208 11.4382 29.7208C11.1622 29.7208 10.9385 29.9426 10.9385 30.2162C10.9385 30.4897 11.1622 30.7115 11.4382 30.7115Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M32.2879 6.99066C32.5639 6.99066 32.7877 6.7689 32.7877 6.49533C32.7877 6.22177 32.5639 6 32.2879 6C32.0119 6 31.7882 6.22177 31.7882 6.49533C31.7882 6.7689 32.0119 6.99066 32.2879 6.99066Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M24.8476 8.3391V13.3062H16.38V18.0669H24.2368V21.1352C23.5841 20.4682 22.8122 19.927 21.9603 19.5391C21.234 19.2571 20.4635 19.1034 19.6837 19.085C18.3502 19.1929 17.0544 19.5773 15.8803 20.2133L14.5893 20.7637C14.2902 20.888 13.9696 20.9534 13.6454 20.9563C12.9004 20.8412 12.1886 20.5707 11.5569 20.1627C10.9252 19.7548 10.3879 19.2186 9.9807 18.5897V8.3391H24.8476ZM25.1946 7.99512H9.63367V18.7135C10.0886 19.387 10.6805 19.9588 11.3713 20.3924C12.0621 20.826 12.8367 21.1118 13.6454 21.2315C14.0128 21.2289 14.3762 21.1541 14.7142 21.0113C17.1296 20.0069 18.2956 19.3602 19.6837 19.3602C20.4257 19.3825 21.1583 19.5314 21.8492 19.8005C22.8898 20.3157 23.8298 21.0098 24.6255 21.8506V17.7229H16.727V13.5951H25.1946V7.99512Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M25.1946 28.2762V34H9.63367V18.7135C10.9246 20.2545 12.7847 21.8093 14.7142 21.0113C18.2262 19.5528 19.1146 18.8373 21.8492 19.8005C22.8898 20.3156 23.8298 21.0098 24.6255 21.8506V23.3641H16.727V28.2762H25.1946Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M41.283 14.2555V18.108L40.6445 18.9336C40.3554 18.6126 40.0292 18.3262 39.6728 18.0805C39.3845 17.881 39.0386 17.7796 38.6872 17.7916C37.424 17.7916 35.6056 18.8098 32.8709 20.7361L33.8843 19.4289L34.3146 18.8786H25.9858V14.2555H41.2553H41.283ZM41.6439 13.8564H25.6804V19.1675H33.6067L31.1497 22.3459C34.7866 19.6766 37.2436 18.0805 38.6872 18.0805C38.9673 18.0731 39.2432 18.1498 39.4785 18.3007C39.9228 18.6254 40.3239 19.0045 40.6723 19.4289L41.6439 18.1631V13.8564Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M42.0326 28.6889V34H25.1946V30.0373L31.1497 22.3459C35.5639 19.1125 38.243 17.4476 39.4785 18.3007C39.9228 18.6255 40.3239 19.0045 40.6723 19.429L33.5789 28.6889H42.0326Z"
+                                                    fill="#2A6F78" />
+                                                <path
+                                                    d="M11.9658 23.6531C12.2494 23.6531 12.4794 23.4251 12.4794 23.144C12.4794 22.8628 12.2494 22.6349 11.9658 22.6349C11.6821 22.6349 11.4521 22.8628 11.4521 23.144C11.4521 23.4251 11.6821 23.6531 11.9658 23.6531Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M16.3106 22.1395C16.4715 22.1395 16.6021 22.0102 16.6021 21.8506C16.6021 21.691 16.4715 21.5616 16.3106 21.5616C16.1496 21.5616 16.019 21.691 16.019 21.8506C16.019 22.0102 16.1496 22.1395 16.3106 22.1395Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M21.7104 22.346C21.9864 22.346 22.2102 22.1242 22.2102 21.8507C22.2102 21.5771 21.9864 21.3553 21.7104 21.3553C21.4344 21.3553 21.2107 21.5771 21.2107 21.8507C21.2107 22.1242 21.4344 22.346 21.7104 22.346Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M16.019 32.3902C16.295 32.3902 16.5187 32.1684 16.5187 31.8949C16.5187 31.6213 16.295 31.3995 16.019 31.3995C15.743 31.3995 15.5193 31.6213 15.5193 31.8949C15.5193 32.1684 15.743 32.3902 16.019 32.3902Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M21.2107 30.7115C21.4867 30.7115 21.7104 30.4897 21.7104 30.2162C21.7104 29.9426 21.4867 29.7208 21.2107 29.7208C20.9347 29.7208 20.7109 29.9426 20.7109 30.2162C20.7109 30.4897 20.9347 30.7115 21.2107 30.7115Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M32.399 29.2531C32.675 29.2531 32.8987 29.0313 32.8987 28.7578C32.8987 28.4842 32.675 28.2625 32.399 28.2625C32.123 28.2625 31.8993 28.4842 31.8993 28.7578C31.8993 29.0313 32.123 29.2531 32.399 29.2531Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M37.3962 21.369C37.5572 21.369 37.6878 21.2397 37.6878 21.0801C37.6878 20.9205 37.5572 20.7911 37.3962 20.7911C37.2353 20.7911 37.1047 20.9205 37.1047 21.0801C37.1047 21.2397 37.2353 21.369 37.3962 21.369Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M31.9687 24.4098C32.2063 24.4098 32.399 24.2189 32.399 23.9833C32.399 23.7477 32.2063 23.5568 31.9687 23.5568C31.731 23.5568 31.5383 23.7477 31.5383 23.9833C31.5383 24.2189 31.731 24.4098 31.9687 24.4098Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M29.359 30.9868C29.5124 30.9868 29.6367 30.8636 29.6367 30.7116C29.6367 30.5596 29.5124 30.4364 29.359 30.4364C29.2057 30.4364 29.0814 30.5596 29.0814 30.7116C29.0814 30.8636 29.2057 30.9868 29.359 30.9868Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M37.2575 31.3995C37.4184 31.3995 37.549 31.2702 37.549 31.1106C37.549 30.951 37.4184 30.8217 37.2575 30.8217C37.0965 30.8217 36.9659 30.951 36.9659 31.1106C36.9659 31.2702 37.0965 31.3995 37.2575 31.3995Z"
+                                                    fill="white" />
+                                            </svg>
+                                            <h6>Stomach Enzyme</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 text-center view-all-category" style="margin-top: 13px;">
+                                        <a href="#" class="">
+                                            <img src="assets/img/view-all.png" data-aos="fade-down"
+                                                data-aos-duration="2000">
+                                            <h6 data-aos="fade-up" data-aos-duration="2000">View All</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-text online">Get adviced on online</p>
+                                    <h6 class="card-title mb-2 ml-3">Pharma<span style="font-weight: 200;">One</span>
+                                    </h6>
+                                    <p class="card-text ml-3">Sign-up and get Best of our services curated just for
+                                        <span style="font-weight: 800;">you!</span>
+                                    </p>
+                                    <div class="float-right" data-aos="fade-down" data-aos-duration="2000">
+                                        <a href="#">
+                                            Sign-up
+                                            <img src="assets/img/sign-up.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Vitamins Section -->
+    <section class="vitamins-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-1 col-md-6 vitamins-type">
+                    <div class="all-vitamin">
+                        <h4 class="mb-4">Get supplements by <span style="font-weight: 800;">Vitamins: A-9</span></h4>
+                        <h5 class="ml-4">Select from Common vitamins and minreals.</h5>
+                        <div class="ml-5 a-d3">
+                            <a href="#">A</a>
+                            <a href="#">B</a>
+                            <a href="#">B2</a>
+                            <a href="#">B6</a>
+                            <a href="#">B12</a>
+                            <a href="#">C</a>
+                            <a href="#">D</a>
+                            <a href="#">D3</a>
+                        </div>
+                        <div class="ml-5 vitamin-name">
+                            <a href="#">Calcium</a>
+                            <a href="#">Megnesium</a>
+                            <a href="#">Sulphate</a>
+                            <a href="#">Iron</a>
+                            <a href="#">Zinc</a>
+                        </div>
+                    </div>
+                    <div class="a-z">
+                        <h5 class="ml-4 mt-3">All vitamins</h5>
+                        <div class="ml-5 a-t-vitamins">
+                            <a href="#">A</a>
+                            <a href="#">B</a>
+                            <a href="#">C</a>
+                            <a href="#">D</a>
+                            <a href="#">E</a>
+                            <a href="#">F</a>
+                            <a href="#">G</a>
+                            <a href="#">H</a>
+                            <a href="#">I</a>
+                            <a href="#">J</a>
+                            <a href="#">K</a>
+                            <a href="#">L</a>
+                            <a href="#">M</a>
+                            <a href="#">N</a>
+                            <a href="#">O</a><br>
+                            <a href="#">P</a>
+                            <a href="#">K</a>
+                            <a href="#">R</a>
+                            <a href="#">S</a>
+                            <a href="#">T</a>
+                            <a href="#">U</a>
+                            <a href="#">V</a>
+                            <a href="#">W</a>
+                            <a href="#">X</a>
+                            <a href="#">Y</a>
+                            <a href="#">Z</a>
+                        </div>
+                        <div class="zero-nine ml-5 mt-2">
+                            <a href="#">0 - 9</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="products">
+                        <h5 class="mt-2">Spo. Products</h5>
+                        <div class="row">
+                            <div class="col-md-6 explore-col">
+                                <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="text-center mt-4">
+                                        <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                                aria-hidden="true"></i>
+                                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                                        </a>
+                                        <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                                        <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                                        <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                                        <a href="#"><img src="assets/img/cart.png"
+                                                style="min-width: 22px;margin-top: 2px;"></a>
+                                        <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 explore-col">
+                                <div class="card" data-aos="fade-down" data-aos-duration="2000">
+                                    <div class="text-center mt-4">
+                                        <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                                aria-hidden="true"></i>
+                                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                                            </a>
+                                        <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                                        <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                                        <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                                        <a href="#"><img src="assets/img/cart.png"
+                                                style="min-width: 22px;margin-top: 2px;"></a>
+                                        <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Baby Care Section-->
+    <section class="baby-care">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <h3 class="mb-5">Explore in <span style="font-weight: 800;">Baby care</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-8">
+                    <h5>Essesntial Health Dietery</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-2 explore-col"
+                    style="border-top-left-radius: 30px;border-bottom-left-radius: 30px;">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="2500">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col"
+                    style="border-top-right-radius: 30px;border-bottom-right-radius: 30px;">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Essesntial Health -->
+    <section class="essesntial-health my-5">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-1 col-md-8">
+                    <h5>Kids Essesntial Health Dietary </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-2 explore-col"
+                    style="border-top-left-radius: 30px;border-bottom-left-radius: 30px;">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 explore-col"
+                    style="border-top-right-radius: 30px;border-bottom-right-radius: 30px;">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="text-center mt-4">
+                            <a class="heart-icon" href="" onclick="return false;"><i class="fa fa-heart-o"
+                                    aria-hidden="true"></i>
+                                <i class="fa fa-heart heart-dis" style="display: none; color: #FFA04C;" aria-hidden="true"></i>
+                            </a>
+                            <img class="card-img-top" src="assets/img/explore.png" width="10px">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del>999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <a href="#"><img src="assets/img/cart.png" style="min-width: 22px;margin-top: 2px;"></a>
+                            <a href="#" class="btn btn-primary mt-2">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- User Testimonial -->
+    <section class="user-testimonial mb-5">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="offset-md-2 col-md-8">
+                    <h3>What our <span style="font-weight: 800;">users</span> say?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <div id="customers-testimonials" class="owl-carousel">
+                        <div class="item col-12 mt-3">
+                            <div class="card mt-3" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="">
+                                    <div class="row justify-content-center">
+                                        <div class="col text-center user-image">
+                                            <img class="align-self-center text-center rounded-circle outside img-fluid img-thumbnail"
+                                                src="assets/img/face1.jpg" width="110" height="110">
+                                        </div>
+                                    </div>
+                                    <div class="row name text-center">
+                                        <div class="col">
+                                            <h6 class="mt-3"><i class="fa fa-quote-left"></i> Elizabeth Smith</h6>
+                                            <p class="mt-3 description" style="margin-bottom: 34px;">Its pretty easy to
+                                                find my sup-
+                                                plments here love pharmaone.</p>
+                                            <p class="text-center">
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star-o mr-1"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="card mt-3" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="">
+                                    <div class="row justify-content-center">
+                                        <div class="col text-center user-image">
+                                            <img class="align-self-center text-center rounded-circle outside img-fluid img-thumbnail"
+                                                src="assets/img/face2.jpg" width="110" height="110">
+                                        </div>
+                                    </div>
+                                    <div class="row name text-center">
+                                        <div class="col">
+                                            <h6 class="mt-3"><i class="fa fa-quote-left"></i> Teri Dactyl</h6>
+                                            <p class="mt-3 description" style="margin-bottom: 34px;">Its pretty easy to
+                                                find my sup-
+                                                plments here love pharmaone.</p>
+                                            <p class="text-center">
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star-o mr-1"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="card mt-3" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="">
+                                    <div class="row justify-content-center">
+                                        <div class="col text-center user-image">
+                                            <img class="align-self-center text-center rounded-circle outside img-fluid img-thumbnail"
+                                                src="assets/img/face3.jpg" width="110" height="110">
+                                        </div>
+                                    </div>
+                                    <div class="row name text-center">
+                                        <div class="col">
+                                            <h6 class="mt-3"><i class="fa fa-quote-left"></i> Aida Bugg.</h6>
+                                            <p class="mt-3 description" style="margin-bottom: 34px;">Its pretty easy to
+                                                find my sup-
+                                                plments here love pharmaone.</p>
+                                            <p class="text-center">
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star-o mr-1"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="card mt-3" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="">
+                                    <div class="row justify-content-center">
+                                        <div class="col text-center user-image">
+                                            <img class="align-self-center text-center rounded-circle outside img-fluid img-thumbnail"
+                                                src="assets/img/face4.jpg" width="110" height="110">
+                                        </div>
+                                    </div>
+                                    <div class="row name text-center">
+                                        <div class="col">
+                                            <h6 class="mt-3"><i class="fa fa-quote-left"></i> Elizabeth Smith</h6>
+                                            <p class="mt-3 description" style="margin-bottom: 34px;">Its pretty easy to
+                                                find my sup-
+                                                plments here love pharmaone.</p>
+                                            <p class="text-center">
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star-o mr-1"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="card mt-3" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="">
+                                    <div class="row justify-content-center">
+                                        <div class="col text-center user-image">
+                                            <img class="align-self-center text-center rounded-circle outside img-fluid img-thumbnail"
+                                                src="assets/img/face1.jpg" width="110" height="110">
+                                        </div>
+                                    </div>
+                                    <div class="row name text-center">
+                                        <div class="col">
+                                            <h6 class="mt-3"><i class="fa fa-quote-left"></i> Peg Legge</h6>
+                                            <p class="mt-3 description" style="margin-bottom: 34px;">Its pretty easy to
+                                                find my sup-
+                                                plments here love pharmaone.</p>
+                                            <p class="text-center">
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star-o mr-1"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-12 mt-3">
+                            <div class="card mt-3" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="">
+                                    <div class="row justify-content-center">
+                                        <div class="col text-center user-image">
+                                            <img class="align-self-center text-center rounded-circle outside img-fluid img-thumbnail"
+                                                src="assets/img/face1.jpg" width="110" height="110">
+                                        </div>
+                                    </div>
+                                    <div class="row name text-center">
+                                        <div class="col">
+                                            <h6 class="mt-3"><i class="fa fa-quote-left"></i> Elizabeth Smith</h6>
+                                            <p class="mt-3 description" style="margin-bottom: 34px;">Its pretty easy to
+                                                find my sup-
+                                                plments here love pharmaone.</p>
+                                            <p class="text-center">
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star mr-1"></span>
+                                                <span class="fa fa-star-o mr-1"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Section -->
+    <section class="subscribe-section">
+        <div class="container">
+            <h2 class="text-center">Subscribe to daily Health Digest!</h2>
+            <div class="row">
+                <div class="offset-md-4 col-md-4">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email Address"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button"><i class="fa fa-paper-plane-o"
+                                    aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Deliver Modal -->
+    <div class="modal fade animate__animated animate__bounceInDown" id="DeliverModal" tabindex="-1" role="dialog"
+        aria-labelledby="DeliverModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="DeliverModalLabel">Change Delivery Address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="DeliverForm">
+                        <div class="form-group">
+                            <label for="PinCode">Pin Code</label>
+                            <input list="encodings" name="code" type="text" autocomplete="off" class="form-control"
+                                id="PinCode" placeholder="Enter Pin Code" required>
+                            <datalist id="encodings">
+                                <option value="12221">12221</option>
+                                <option value="456323">456323</option>
+                                <option value="432156">432156</option>
+                            </datalist>
+                        </div>
+                        <div class="form-group float-right">
+                            <button type="submit" class="btn btn-primary save">Change Pin</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade bd-example-modal-lg animate__animated animate__zoomIn" id="LoginModal" tabindex="-1"
+        role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/img/login-1.jpg" width="100%">
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-login-tab" data-toggle="pill"
+                                        href="#pills-login" role="tab" aria-controls="pills-login"
+                                        aria-selected="true">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-signUp-tab" data-toggle="pill" href="#pills-signUp"
+                                        role="tab" aria-controls="pills-signUp" aria-selected="false">Create An
+                                        Account</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-login" role="tabpanel"
+                                    aria-labelledby="pills-login-tab">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email" autofocus>
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                                email with
+                                                anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <h6><a href="">Forgot Password</a></h6>
+                                            <!-- <span class="float-right"><a href="">Create An Account</a></span> -->
+                                        </div>
+                                        <div class="form-check mb-3">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block">Log In</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="pills-signUp" role="tabpanel"
+                                    aria-labelledby="pills-signUp-tab">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="User Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                                email with
+                                                anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                                placeholder="Password">
+                                        </div>
+                                        <!-- <div class="form-group">
+                                            <h6>I have an account already <a class="ml-3" href="">Sign In</a></h6>
+                                        </div> -->
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- User Profile Modal -->
+    <div class="modal fade animate__animated animate__zoomIn" id="profileModal" tabindex="-1" role="dialog"
+        aria-labelledby="profileModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="profileModalLabel"><i class="fa fa-user-o" aria-hidden="true"></i> My
+                        Profile</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="p-3 py-4">
+                        <div class="text-center"> <img src="assets/img/face2.jpg" width="100" class="rounded-circle">
+                            <h3 class="mt-2">Maria Smantha</h3>
+                            <!-- <div class="row">
+                                <div class="col-md-6">
+                                    <h6 class=""><a href="">Change Password</a></h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="text-right mr-4"><a href="">Log Out</a></h6>
+                                </div>
+                            </div> -->
+
+                            <div class="row mt-2 mb-3">
+                                <div class="col-md-4">
+                                    <i class="fa fa-odnoklassniki animate__animated animate__fadeInDown"
+                                        aria-hidden="true"></i>
+                                    <h5>Order</h5> <span class="num">10</span>
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="fa fa-heart-o animate__animated animate__heartBeat"
+                                        aria-hidden="true"></i>
+                                    <h5>Wishlist</h5> <span class="num">30</span>
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="fa fa-bell-o animate__animated animate__bounce" aria-hidden="true"></i>
+                                    <h5>Notification</h5> <span class="num">05</span>
+                                </div>
+                            </div>
+                            <hr class="line">
+                            <div class="social-buttons mt-4">
+                                <a href="" class="facebook animate__animated animate__zoomIn"><i
+                                        class="fa fa-facebook fa-1x"></i></a>
+                                <a href="" class="linkedin animate__animated animate__zoomIn"><i
+                                        class="fa fa-linkedin fa-1x"></i></a>
+                                <a href="" class="google animate__animated animate__zoomIn"><i
+                                        class="fa fa-google fa-1x"></i></a>
+                                <a href="" class="youtube animate__animated animate__zoomIn"><i
+                                        class="fa fa-youtube fa-1x"></i></a>
+                                <a href="" class="twitter animate__animated animate__zoomIn"><i
+                                        class="fa fa-twitter fa-1x"></i></a>
+                            </div>
+                            <div class="profile mt-4">
+                                <button class="profile_button px-5 btn btn-info">View profile</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal fade animate__animated animate__zoomIn" id="cartModal" tabindex="-1" role="dialog"
+        aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="assets/img/explore.png" width="100%">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Vitamin A Supple-ments - Tablets MR</h6>
+                            <h5 class="card-title">Rs. 499 <del style="font-weight: 200;font-size: 15px;">999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="" class="text-danger">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                <h6>Remove</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="assets/img/explore.png" width="100%">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Vitamin A Supple-ments - Tablets MR</h6>
+                            <h5 class="card-title">Rs. 499 <del style="font-weight: 200;font-size: 15px;">999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="" class="text-danger">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                <h6>Remove</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="assets/img/explore.png" width="100%">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Vitamin A Supple-ments - Tablets MR</h6>
+                            <h5 class="card-title">Rs. 499 <del style="font-weight: 200;font-size: 15px;">999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="" class="text-danger">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                <h6>Remove</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="assets/img/explore.png" width="100%">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Vitamin A Supple-ments - Tablets MR</h6>
+                            <h5 class="card-title">Rs. 499 <del style="font-weight: 200;font-size: 15px;">999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="" class="text-danger">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                <h6>Remove</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="">
+                        <h6 class="text-right"><a href="">All Items</a></h6>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-md-2">
+                            <img src="assets/img/explore.png" width="100%">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Vitamin A Supple-ments - Tablets MR</h6>
+                            <h5 class="card-title">Rs. 499 <del style="font-weight: 200;font-size: 15px;">999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="" class="text-danger">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                <h6>Remove</h6>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Details Modal -->
+    <div class="modal fade bd-example-modal-lg animate__animated animate__zoomIn" id="productModal" tabindex="-1"
+        role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div id="myCarousel" class="carousel slide shadow" style="margin-top: 20px;">
+                                <!-- main slider carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active carousel-item animate__animated animate__zoomIn"
+                                        data-slide-number="0">
+                                        <img src="assets/img/explore.png" style="margin-left: 74px;" class="img-fluid"
+                                            width="100px">
+                                    </div>
+                                    <div class="carousel-item animate__animated animate__zoomIn" data-slide-number="1">
+                                        <img src="assets/img/explore.png" style="margin-left: 74px;" class="img-fluid"
+                                            width="100px">
+                                    </div>
+                                    <div class="carousel-item animate__animated animate__zoomIn" data-slide-number="2">
+                                        <img src="assets/img/explore.png" style="margin-left: 74px;" class="img-fluid"
+                                            width="100px">
+                                    </div>
+                                    <div class="carousel-item animate__animated animate__zoomIn" data-slide-number="3">
+                                        <img src="assets/img/explore.png" style="margin-left: 74px;" class="img-fluid"
+                                            width="100px">
+                                    </div>
+                                    <!-- <div class="carousel-item" data-slide-number="4">
+                                        <img src="assets/img/explore.png" style="margin-left: 74px;" class="img-fluid" width="100px">
+                                    </div> -->
+
+                                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    </a>
+
+                                </div>
+                                <!-- main slider carousel nav controls -->
+
+
+                                <ul class="carousel-indicators list-inline mx-auto px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" class="selected" data-slide-to="0"
+                                            data-target="#myCarousel">
+                                            <img src="assets/img/explore.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+                                            <img src="assets/img/explore.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+                                            <img src="assets/img/explore.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
+                                            <img src="assets/img/explore.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                            </div>
+                        </div>
+                        <div class="offset-md-1 col-md-7">
+                            <p class="card-text">Vitamin A Supple-ments - Tablets MR</p>
+                            <h5 class="card-title">Rs. 499 <del style="font-weight: 200;font-size: 12px;">999</del></h5>
+                            <h6 class="card-text" style="font-size: 12px;">BetterMed</h6>
+                            <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group mt-2">
+                                        <span class="input-group-btn">
+                                            <button style="border-radius: 10px 0px 0px 10px;" type="button"
+                                                class="btn btn-default btn-number" disabled="disabled" data-type="minus"
+                                                data-field="quant[1]">
+                                                <span class="fa fa-minus"></span>
+                                            </button>
+                                        </span>
+                                        <input type="text" name="quant[1]" class="form-control input-number" value="1"
+                                            min="1" max="10">
+                                        <span class="input-group-btn">
+                                            <button style="border-radius: 0px 10px 10px 0px;" type="button"
+                                                class="btn btn-default btn-number" data-type="plus"
+                                                data-field="quant[1]">
+                                                <span class="fa fa-plus"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="btn btn-primary btn-lg btn-block mt-2">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <section class="footer-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <h4 class="text-light">Pharma<span style="font-weight: 200;">One</span> <span><a href="#"
+                                class="mt-2" id="language" data-toggle="dropdown">English <i
+                                    class="fa fa-caret-down"></i> <img src="assets/img/word.png"></a></span></h4>
+                    <div class="dropdown-menu" aria-labelledby="language">
+                        <a class="dropdown-item" href="#">My Profile</a>
+                        <a class="dropdown-item" href="#">Change Password</a>
+                        <a class="dropdown-item" href="#">LogOut</a>
+                    </div>
+                    <div class="row footer-link">
+                        <div class="col-md-2">
+                            <h5>About Us</h5>
+                            <p><a href="#">Who we are?</a></p>
+                            <p><a href="#">What do we do?</a></p>
+                        </div>
+                        <div class="col-md-2">
+                            <h5>Services</h5>
+                            <p><a href="#">Order Medicines </a></p>
+                            <p><a href="#">Upload prescription</a></p>
+                            <p><a href="#">PharmaOne Eyecare</a></p>
+                            <p><a href="#">Experts Portal</a></p>
+                            <p><a href="#">Editorials</a></p>
+                        </div>
+                        <div class="col-md-2">
+                            <h5>Products</h5>
+                            <p><a href="#">Brands</a></p>
+                            <p><a href="#">PharamOne Health</a></p>
+                            <p><a href="#">PharamOne fitness</a></p>
+                            <p><a href="#">Featured brands</a></p>
+                        </div>
+                        <div class="col-md-2">
+                            <h5>Career</h5>
+                            <p><a href="#">Vendors</a></p>
+                            <p><a href="#">Our Editors</a></p>
+                        </div>
+                        <div class="col-md-2">
+                            <h5>Connect</h5>
+                            <p><a href="#">Social Media</a></p>
+                            <p class="social-media">
+                                <a data-aos="fade-right" data-aos-duration="1000" href="#"><i class="fa fa-instagram"
+                                        aria-hidden="true"></i></a>
+                                <a data-aos="fade-down" data-aos-duration="1000" href="#"><i class="fa fa-twitter"
+                                        aria-hidden="true"></i></a>
+                                <a data-aos="fade-left" data-aos-duration="1000" href="#"><i class="fa fa-facebook"
+                                        aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-2">
+                            <h5>Support</h5>
+                            <p><a href="#">Call us at</a></p>
+                            <p><a href="#">1800-50-25250</a></p>
+                            <p><a href="#">1800-50-25250</a></p>
+                            <h6>We are at</h6>
+                            <p class="address">3-6-10, Liberty Rd, Himayat Nagar Hyderabad, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="assets/js/jquery-3.2.1.slim.min.js"></script> -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script>
+
+        $("#DeliverForm").validate({
+            rules: {
+                code: {
+                    required: true,
+                    number: true,
+                    minlength: 4,
+                    maxlength: 6
+                }
+            },
+        });
+
+        $(".save").click(function (e) {
+            e.preventDefault();
+            if ($("#DeliverForm").valid()) {
+                var input = $('#PinCode').val();
+                var pinCode = $(".pinCode").text(input);
+                $('#DeliverModal').modal('toggle');
+            }
+        });
+
+
+        $(document).ready(function () {
+            // setInterval(function() {
+            //     $('.search-section .input-group span').text("Search all Drugs").attr("class", "animate__animated animate__fadeInDown");
+            // }, 2000);
+            // setInterval(function() {
+            //     $('.search-section .input-group span').text("Search all Vitamins & Health products").attr("class", "animate__animated animate__fadeInUp");
+            // }, 4000);
+            // setInterval(function() {
+            //     $('.search-section .input-group span').text("Search all Medicines").attr("class", "animate__animated animate__fadeInDown");
+            // }, 6000);
+
+            // $( "#search-box" ).click(function() {
+            //     $( ".search-section .input-group span" ).hide();
+            //     $( "#search-box" ).focus();
+            // });
+
+            // $("#search-box").blur(function(e){
+            //     if (e.target.value == '') {
+            //         $( ".search-section .input-group span" ).show();
+            //     }
+            // });
+
+            // $( ".search-section .input-group span" ).click(function() {
+            //     $( ".search-section .input-group span" ).hide();
+            //     $( "#search-box" ).focus();
+            // });
+
+            // $(".search-section .input-group span").blur(function(e){
+            //     if (e.target.value == '') {
+            //         $( ".search-section .input-group span" ).show();
+            //     }
+            // });
+
+            $(".card .fa-heart-o").hover(
+                function () {
+                    $(this).addClass("fa-heart animate__animated animate__heartBeat");
+                    $(this).css('color', '#A9BDBF');
+                    $(this).removeClass("fa-heart-o");
+                },
+                function () {
+                    $(this).removeClass("animate__animated animate__heartBeat");
+                    $(this).css('color', '#2a6f78');
+                    $(this).addClass("fa-heart-o");
+                }
+            );
+
+            $('.card .heart-icon').click(function () {
+                $(this).find('.heart-dis').css('display', 'block');
+                $(this).find('i').removeClass("fa-heart-o");
+            });
+
+            $(".offer-content").on({
+                mouseenter: function () {
+                    $(this).find('h5').addClass("animate__animated animate__fadeInDown");
+                    $(this).css('border-color', '#FFA04C')
+                },
+                mouseleave: function () {
+                    $(this).find('h5').removeClass("animate__animated animate__fadeInDown");
+                    $(this).css('border-color', '#4E97A1')
+                }
+            })
+
+            $(".deals-section").on({
+                mouseenter: function () {
+                    $(this).find('.clock').addClass("animate__animated animate__rotateIn");
+                },
+                mouseleave: function () {
+                    $(this).find('.clock').removeClass("animate__animated animate__rotateIn");
+                }
+            })
+
+            $(".deal-content").on({
+                mouseenter: function () {
+                    // $(this).find('h5').addClass("animate__animated animate__fadeInDown");
+                    // $(this).find('h4').addClass("animate__animated animate__zoomIn");
+                    // $(this).find('.text-right').css("animate__animated animate__fadeInLeft");
+                    // $(this).find('.text-right').css("transform", "translateX(10px)");
+                    $(this).find('.text-right').css({'transition-timing-function':'ease-out', 'transform': 'translateX(10px)'});
+                    $(this).css('border-color', '#FFA04C');
+                },
+                mouseleave: function () {
+                    // $(this).find('h5').removeClass("animate__animated animate__fadeInDown");
+                    // $(this).find('h4').removeClass("animate__animated animate__zoomIn");
+                    // $(this).find('.text-right').removeClass("animate__animated animate__fadeInLeft");
+                    // $(this).find('.text-right').css("transform", "translateX(0px)");
+                    $(this).find('.text-right').css({'transition-timing-function':'ease-in', 'transform': 'translateX(0px)'});
+                    $(this).css('border-color', '#4E97A1');
+                }
+            })
+
+            $(".category-section .card").on({
+                mouseenter: function () {
+                    $(this).find('.float-right').addClass("animate__animated animate__fadeInLeft");
+                },
+                mouseleave: function () {
+                    $(this).find('.float-right').removeClass("animate__animated animate__fadeInLeft");
+                }
+            })
+
+            $(".category").on({
+                mouseenter: function () {
+                    $(this).find('.view-all-category').addClass("animate__animated animate__fadeInLeft");
+                },
+                mouseleave: function () {
+                    $(this).find('.view-all-category').removeClass("animate__animated animate__fadeInLeft");
+                }
+            })
+
+            $(".explore-section .card").on({
+                mouseenter: function () {
+                    $(this).find('.card-body img').attr("class", "animate__animated animate__bounceIn");
+                },
+                mouseleave: function () {
+                    $(this).find('.card-body img').removeAttr("class", "animate__animated animate__bounceIn");
+                }
+            });
+
+            $(".explore-section .view-all").on({
+                mouseenter: function () {
+                    $(this).find('a').attr("class", "animate__animated animate__fadeInLeft");
+                },
+                mouseleave: function () {
+                    $(this).find('a').removeAttr("class", "animate__animated animate__fadeInLeft");
+                }
+            });
+
+            $(".explore-section .view-all").hover(
+                $(this).attr("class", "animate__animated animate__fadeInLeft")
+            );
+
+            $(".vitamins-section .card").on({
+                mouseenter: function () {
+                    $(this).find('.card-body img').attr("class", "animate__animated animate__bounceIn");
+                },
+                mouseleave: function () {
+                    $(this).find('.card-body img').removeAttr("class", "animate__animated animate__bounceIn");
+                }
+            })
+
+            $(".baby-care .card").on({
+                mouseenter: function () {
+                    $(this).find('.card-body img').attr("class", "animate__animated animate__bounceIn");
+                },
+                mouseleave: function () {
+                    $(this).find('.card-body img').removeAttr("class", "animate__animated animate__bounceIn");
+                }
+            })
+
+            $(".essesntial-health .card").on({
+                mouseenter: function () {
+                    $(this).find('.card-body img').attr("class", "animate__animated animate__bounceIn");
+                },
+                mouseleave: function () {
+                    $(this).find('.card-body img').removeAttr("class", "animate__animated animate__bounceIn");
+                }
+            })
+
+            $(".user-testimonial .card").on({
+                mouseenter: function () {
+                    $(this).css('box-shadow', '0 4px 4px rgba(0, 0, 0, 0.4)');
+                },
+                mouseleave: function () {
+                    $(this).css('box-shadow', 'none');
+                }
+            })
+
+
+        });
+
+        var txt = "Search all Medicines, drugs, vitamins & health products";
+        var timeOut;
+        var txtLen = txt.length;
+        var char = 0;
+        $('#search-box').attr('placeholder', '|');
+        (function typeIt() {
+            var humanize = Math.round(Math.random() * (200 - 30)) + 30;
+            timeOut = setTimeout(function () {
+                char++;
+                var type = txt.substring(0, char);
+                $('#search-box').attr('placeholder', type + '|');
+                typeIt();
+
+                if (char == txtLen) {
+                    $('#search-box').attr('placeholder', $('#search-box').attr('placeholder').slice(0, -1)) // remove the '|'
+                    clearTimeout(timeOut);
+                }
+
+            }, humanize);
+        }());
+
+        $('#deals-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            navText: [
+                "<i class='fa fa-angle-left'></i>",
+                "<i class='fa fa-angle-right'></i>"
+            ],
+            autoplay: true,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 4,
+                    margin: 0
+                },
+                1000: {
+                    items: 4,
+                    margin: 0
+                }
+            }
+        })
+
+        $('#product-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            navText: [
+                "<i class='fa fa-angle-left'></i>",
+                "<i class='fa fa-angle-right'></i>"
+            ],
+            autoplay: true,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1,
+                    margin: 0
+                },
+                1000: {
+                    items: 1,
+                    margin: 0
+                }
+            }
+        })
+
+        $('#customers-testimonials').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            navText: [
+                "<i class='fa fa-angle-left'></i>",
+                "<i class='fa fa-angle-right'></i>"
+            ],
+            autoplay: true,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3,
+                    margin: 20
+                },
+                1000: {
+                    items: 3,
+                    margin: 20
+                }
+            }
+        })
+
+
+        $('.btn-number').click(function (e) {
+            e.preventDefault();
+
+            fieldName = $(this).attr('data-field');
+            type = $(this).attr('data-type');
+            var input = $("input[name='" + fieldName + "']");
+            var currentVal = parseInt(input.val());
+            if (!isNaN(currentVal)) {
+                if (type == 'minus') {
+
+                    if (currentVal > input.attr('min')) {
+                        input.val(currentVal - 1).change();
+                    }
+                    if (parseInt(input.val()) == input.attr('min')) {
+                        $(this).attr('disabled', true);
+                    }
+
+                } else if (type == 'plus') {
+
+                    if (currentVal < input.attr('max')) {
+                        input.val(currentVal + 1).change();
+                    }
+                    if (parseInt(input.val()) == input.attr('max')) {
+                        $(this).attr('disabled', true);
+                    }
+
+                }
+            } else {
+                input.val(0);
+            }
+        });
+        
+        $('.input-number').focusin(function () {
+            $(this).data('oldValue', $(this).val());
+        });
+        $('.input-number').change(function () {
+
+            minValue = parseInt($(this).attr('min'));
+            maxValue = parseInt($(this).attr('max'));
+            valueCurrent = parseInt($(this).val());
+
+            name = $(this).attr('name');
+            if (valueCurrent >= minValue) {
+                $(".btn-number[data-type='minus'][data-field='" + name + "']").removeAttr('disabled')
+            } else {
+                alert('Sorry, the minimum value was reached');
+                $(this).val($(this).data('oldValue'));
+            }
+            if (valueCurrent <= maxValue) {
+                $(".btn-number[data-type='plus'][data-field='" + name + "']").removeAttr('disabled')
+            } else {
+                alert('Sorry, the maximum value was reached');
+                $(this).val($(this).data('oldValue'));
+            }
+
+
+        });
+        $(".input-number").keydown(function (e) {
+            // Allow: backspace, delete, tab, escape, enter and .
+            if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+                // Allow: Ctrl+A
+                (e.keyCode == 65 && e.ctrlKey === true) ||
+                // Allow: home, end, left, right
+                (e.keyCode >= 35 && e.keyCode <= 39)) {
+                // let it happen, don't do anything
+                return;
+            }
+            // Ensure that it is a number and stop the keypress
+            if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                e.preventDefault();
+            }
+        });
+
+        AOS.init({
+            once: true,
+        });
+
+    </script>
+</body>
+
+</html>
